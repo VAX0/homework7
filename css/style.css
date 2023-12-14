@@ -1,0 +1,42 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+/* header  */
+header {
+  display: flex;
+  padding: 32px 80px;
+  justify-content: space-between;
+  align-items: center;
+  background: #372d23;
+  position: fixed;
+  max-width: inherit;
+  width: inherit;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+header a:first-child {
+  height: 72px;
+}
+header nav ul {
+  display: flex;
+  column-gap: 48px;
+}
+.nav_a {
+  color: #b89278;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.active {
+  color: #ed6c30;
+}
+i {
+  color: #fcc21b;
+}
+header i {
+  font-size: 40px;
+}

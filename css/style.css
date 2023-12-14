@@ -166,3 +166,42 @@ article button:hover{
   0 0 15px #f07942,
   0 0 15px #f07942,
 }
+/* footer  */
+footer {
+  display: flex;
+  padding: 32px 300px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 416px;
+  background: #372d23;
+}
+footer div:first-child {
+  width: 264px;
+  height: 132px;
+}
+h5 {
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.footer_nav {
+  color: #b89278;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer li:nth-child(2){
+  margin: 8px 0;
+}
+
+footer div:last-child a{
+  margin-right: 16px;
+  display: inline-block;
+}
+footer i{
+  font-size: 20px;
+}

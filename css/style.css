@@ -40,3 +40,47 @@ i {
 header i {
   font-size: 40px;
 }
+/* section1  */
+.section1 {
+  height: 640px;
+  position: relative;
+  margin-top: 136px;
+}
+.section1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section1_cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  color: #fff;
+  text-shadow: 0px 6px 4px #372d23;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 32px;
+}
+.section1 button {
+  display: flex;
+  height: 52px;
+  padding: 12px 38px;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fcc21b;
+  box-shadow: 0px 4px 4px 0px #372d23;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  background-color: transparent;
+}
+.section1 button:hover{
+  cursor:pointer;
+  box-shadow: 0 0 10px #fcc625;
+  
+}
